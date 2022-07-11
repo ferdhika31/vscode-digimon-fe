@@ -1,0 +1,32 @@
+{
+    "dgStatelessPage": {
+        "prefix": "dgp",
+        "body": "import React, { useState, useEffect } from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\n\t// LOCAL STATE\n\tconst [loading, setLoading] = useState(false);\n\n\t// USE EFFECT HOOK\n\tuseEffect(() => {\n\t\t\n\t}, []);\n\n\t// API SERVICE REQUESTS\n\n\t// COMMON FUNCTION\n\n\t// UI HANDLER\n\n\t// RENDER\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+        "description": "Creates a stateless page standard Digimon."
+    },
+    "dgStatelessComponent": {
+        "prefix": "dgc",
+        "body": "import React from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = ({ title }) => {\n// LOCAL STATE\n\n// USE EFFECT HOOK\n// RENDER\n\treturn (\n\t\t<div>\n\t\t\t{ title }\n\t\t</div>\n\t);\n};\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\ttitle: PropTypes.string,\n\t$0\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+        "description": "Creates a stateless component standard Digimon."
+    },
+    "dgStatelessComponentChildren": {
+        "prefix": "dgcc",
+        "body": "import React from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = ({ children, title }) => {\n// LOCAL STATE\n\n// USE EFFECT HOOK\n// RENDER\n\treturn (\n\t\t<div>\n\t\t\t<h5>{ title }</h5>\n\t\t\t{ children }\n\t\t</div>\n\t);\n};\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\ttitle: PropTypes.string,\n\t$0\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+        "description": "Creates a stateless component with children standard Digimon."
+    },
+    "dgStatelessComponentChildrenWithProps": {
+        "prefix": "dgccp",
+        "body": "import React from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = ({ children, ...props }) => {\n// LOCAL STATE\n\n// USE EFFECT HOOK\n// RENDER\n\treturn (\n\t\t<div {...props}>\n\t\t\t{ children }\n\t\t</div>\n\t);\n};\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t$0\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+        "description": "Creates a stateless component with children with props standard Digimon."
+    },
+    "dgPropTypes": {
+        "prefix": "dgrpt",
+        "body": "${1:$TM_FILENAME_BASE}.propTypes = {\n\t$2\n};",
+        "description": "Creates empty propTypes declaration"
+    },
+    "dgDefaultProps": {
+        "prefix": "dgrdp",
+        "body": "${1:$TM_FILENAME_BASE}.defaultProps = {\n\t$2\n};",
+        "description": "Creates empty defaultProps declaration"
+    }
+}
