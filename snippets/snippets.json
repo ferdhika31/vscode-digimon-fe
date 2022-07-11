@@ -28,5 +28,85 @@
         "prefix": "dgrdp",
         "body": "${1:$TM_FILENAME_BASE}.defaultProps = {\n\t$2\n};",
         "description": "Creates empty defaultProps declaration"
-    }
+    },
+	"dgPropTypeString": {
+		"prefix": "dgpts",
+		"body": "PropTypes.string,",
+		"description": "String prop type"
+	},
+	"dgPropTypeStringRequired": {
+		"prefix": "dgptsr",
+		"body": "PropTypes.string.isRequired,",
+		"description": "String prop type required"
+	},
+	"dgPropTypeNumber": {
+		"prefix": "dgptn",
+		"body": "PropTypes.number,",
+		"description": "Number prop type"
+	},
+	"dgPropTypeNumberRequired": {
+		"prefix": "dgptnr",
+		"body": "PropTypes.number.isRequired,",
+		"description": "Number prop type required"
+	},
+	"dgPropTypeBool": {
+		"prefix": "dgptb",
+		"body": "PropTypes.bool,",
+		"description": "Bool prop type"
+	},
+	"dgPropTypeBoolRequired": {
+		"prefix": "dgptbr",
+		"body": "PropTypes.bool.isRequired,",
+		"description": "Bool prop type required"
+	},
+	"dgPropTypeArray": {
+		"prefix": "dgpta",
+		"body": "PropTypes.array,",
+		"description": "Array prop type"
+	},
+	"dgPropTypeArrayRequired": {
+		"prefix": "dgptar",
+		"body": "PropTypes.array.isRequired,",
+		"description": "Array prop type required"
+	},
+	"dgPropTypeObject": {
+		"prefix": "dgpto",
+		"body": "PropTypes.object,",
+		"description": "Object prop type"
+	},
+	"dgPropTypeObjectRequired": {
+		"prefix": "dgptor",
+		"body": "PropTypes.object.isRequired,",
+		"description": "Object prop type required"
+	},
+	"dgPropTypeFunc": {
+		"prefix": "dgptf",
+		"body": "PropTypes.func,",
+		"description": "Func prop type"
+	},
+	"dgPropTypeFuncRequired": {
+		"prefix": "dgptfr",
+		"body": "PropTypes.func.isRequired,",
+		"description": "Func prop type required"
+	},
+	"dgPropTypeAny": {
+		"prefix": "dgptan",
+		"body": "PropTypes.any,",
+		"description": "Any prop type"
+	},
+	"dgPropTypeAnyRequired": {
+		"prefix": "dgptanr",
+		"body": "PropTypes.any.isRequired,",
+		"description": "Any prop type required"
+	},
+	"dgPropTypeEnum": {
+		"prefix": "dgpte",
+		"body": "PropTypes.oneOf(['$0']),",
+		"description": "Prop type limited to specific values by treating it as an enum"
+	},
+	"dgPropTypeEnumRequired": {
+		"prefix": "dgpter",
+		"body": "PropTypes.oneOf(['$0']).isRequired,",
+		"description": "Prop type limited to specific values by treating it as an enum required"
+	}
 }
