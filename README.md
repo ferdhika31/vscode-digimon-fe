@@ -9,6 +9,10 @@ This extension contains code snippets for [Reactjs](https://facebook.github.io/r
 [![Version](https://vsmarketplacebadge.apphb.com/version/ferdhikaaa.DigimonFESnippetsCode.svg)](https://marketplace.visualstudio.com/items?itemName=ferdhikaaa.DigimonFESnippetsCode)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/ferdhikaaa.DigimonFESnippetsCode.svg)](https://marketplace.visualstudio.com/items?itemName=ferdhikaaa.DigimonFESnippetsCode)
 
+## Screenshoot
+
+![Contoh](https://github.com/ferdhika31/vscode-digimon-fe/blob/main/images/contoh.png?raw=true)
+
 ## Installation
 
 In order to install an extension you need to launch the Command Palette (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
