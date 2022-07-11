@@ -6,6 +6,9 @@
 
 This extension contains code snippets for [Reactjs](https://facebook.github.io/react/) FE Digimon. Inspired from [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/ferdhikaaa.DigimonFESnippetsCode.svg)](https://marketplace.visualstudio.com/items?itemName=ferdhikaaa.DigimonFESnippetsCode)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/ferdhikaaa.DigimonFESnippetsCode.svg)](https://marketplace.visualstudio.com/items?itemName=ferdhikaaa.DigimonFESnippetsCode)
+
 ## Installation
 
 In order to install an extension you need to launch the Command Palette (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
